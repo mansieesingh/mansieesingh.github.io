@@ -72,7 +72,6 @@ ul {
 }
 
 ul li {
-    padding-left: 10px;
     color: #717184;
 }
 
@@ -90,7 +89,7 @@ h1.hi-line span {
 }
 
 hr {
-    border-top-width: 0.7rem;
+    border-top-width: 0.6rem;
     border-color: #dd6b20;
 }
 
