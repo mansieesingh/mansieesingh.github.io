@@ -1,49 +1,52 @@
-body{
-background:#fbeae5;
+body {
+    background: #fbeae5;
 }
 
-.outer-container{
+.outer-container {
     margin-top: 100px;
 }
-.intro-box{
-    font-family: Nunito,Helvetica Neue,Helvetica,sans-serif;
+
+.intro-box {
+    font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
     background: whitesmoke;
-    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
 }
 
-.intro-box > p,ul{
+.intro-box>p,
+ul {
     padding: 1em;
     margin-bottom: 0;
 }
-.intro-box > h1{
+
+.intro-box>h1 {
     padding: 0.4em;
     margin-bottom: 0;
 }
-ul.tech-stack li{
-display: inline;
+
+ul.tech-stack li {
+    display: inline;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.profile-photo{
+.profile-photo {
     margin: 2rem auto !important;
     display: block;
 }
 
-ul li{
+ul li {
     padding-left: 10px;
-    color:#717184;
+    color: #717184;
 }
 
-ul li:first-child{
+ul li:first-child {
     padding-left: 0px;
-    color:#717184;
+    color: #717184;
 }
 
-
-h1.hi-line span{
+h1.hi-line span {
     margin-left: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -51,51 +54,54 @@ h1.hi-line span{
     color: whitesmoke;
 }
 
-hr{
+hr {
     border-top-width: 0.7rem;
     border-color: #dd6b20;
 }
 
-
-.profile-detail-navbar > ul > li.active{
+.profile-detail-navbar>ul>li.active {
     /* margin-right: 10rem; */
-    border-bottom: 1px solid #dd6b20;  
+    border-bottom: 1px solid #dd6b20;
 }
 
-.profile-detail-navbar > ul > li {
-   padding-bottom: 0.8rem;
+.profile-detail-navbar>ul>li {
+    padding-bottom: 0.8rem;
 }
 
-.profile-detail-navbar > ul {
+.profile-detail-navbar>ul {
     border: none;
 }
 
-.tile{
+.tile {
     background-color: white;
-    padding: 2rem;
+    /* padding: 2rem; */
     margin-bottom: 1rem;
-    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
-    
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
     background: whitesmoke;
 }
 
-.education-tile{
+.company-box,
+.job-description {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.education-tile {
     background-color: white;
     padding: 2rem;
     margin-bottom: 1rem;
-    box-shadow: 0 0 1rem rgba(0,0,0,0.15) !important;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15) !important;
     background: whitesmoke;
 }
 
-.company-name{
+.company-logo {
     max-width: 100%;
     margin: 0;
     border-radius: 50%;
-    margin: 2rem auto !important;
+    margin: 1rem auto !important;
     display: block;
 }
 
-.college-name{    
+.college-logo {
     border-radius: 50%;
     max-width: 100%;
     margin: 0;
@@ -103,49 +109,79 @@ hr{
     display: block;
 }
 
-.school-name{
+.school-name {
     max-width: 100%;
     margin: 0;
     margin: 2rem auto !important;
     display: block;
 }
 
-.education-detail > *{
+.job-timeline {
+    justify-content: center;
+    display: flex;
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: 700;
+    color: #108043;
+}
+
+.job-description {
+    font-family: Nunito, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+.education-detail>* {
     margin-bottom: 0;
 }
 
-.card{
+.education-detail {
+    margin-bottom: 0;
+    padding: 2rem;
+    font-family: Nunito, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.card {
     border: none;
     max-width: 100%;
     padding: 0;
     height: 90%;
 }
 
-.card-body{
+.card-body {
     margin: auto;
     padding: 0;
 }
-.cgpa, .card-text{
-    color: #717131;
+
+.cgpa,
+.card-text {
+    color: #dd6b20;
     font-style: italic;
     font-weight: 600;
 }
 
-.blog-footer {
+.upper-footer {
+    background-color: #32325d !important;
+    height: 6rem;
+}
+
+.lower-footer {
     padding: 2.5rem 0;
     color: #999;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #fbeae5;
     border-top: .05rem solid #e5e5e5;
 }
 
-.line-sign-off{
+.line-sign-off {
     margin-bottom: 0 !important;
     border-color: #dd6b20;
 }
 
-.sign-off{
-    font-family: Nunito,Helvetica Neue,Helvetica,sans-serif;
+.sign-off {
+    font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
     font-weight: 400;
     margin-top: .25rem;
     font-style: italic;
@@ -155,16 +191,17 @@ hr{
 }
 
 .nav-link.active {
-    /* color: #b5b5c0; */
-    color: #ffafd2 !important;
-    background-color: #202026 !important;
+    color: #4b35ef !important;
     font-size: 1.8rem;
     font-weight: 800;
+    background-color: #fbeae5 !important;
+    border: none;
+    border-top: 0.4rem solid #4b35ef !important;
 }
 
 .nav-link {
-    color: #202026 !important;
+    color: #484848 !important;
     font-size: 1.8rem;
     font-weight: 800;
+    border: none;
 }
-
