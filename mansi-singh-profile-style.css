@@ -198,7 +198,8 @@ h4 {
 
 footer.upper-footer {
     background-color: #32325d !important;
-    height: 0.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .lower-footer {
@@ -238,4 +239,15 @@ footer.upper-footer {
     font-size: 1.8rem;
     font-weight: 800;
     border: none;
+}
+
+.social-app-circle {
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fbeae5;
+    margin: 1rem;
+}
+
+.social-app-icon {
+    color: #32325d;
 }
