@@ -58,7 +58,7 @@ hr{
 
 .profile-detail-navbar > ul > li.active{
     /* margin-right: 10rem; */
-    border-bottom: 1px solid #dd6b20;
+    border-bottom: 1px solid #dd6b20;  
 }
 
 .profile-detail-navbar > ul > li {
@@ -96,13 +96,13 @@ hr{
     border-radius: 50%;
     max-width: 100%;
     margin: 0;
-    transform: scale(1.4);
+    /* transform: scale(1.4); */
 }
 
 .school-name{
     max-width: 100%;
     margin: 0;
-    transform: scale(1.4);
+    /* transform: scale(1.4); */
 }
 
 .education-detail > *{
@@ -146,6 +146,7 @@ hr{
     font-style: italic;
     text-transform: uppercase;
     color: #dd6b20;
+    width: 90%;
 }
 
 .nav-link.active {
@@ -157,9 +158,8 @@ hr{
 }
 
 .nav-link {
-    /* color: #b5b5c0; */
-    background-color: #ffafd2 !important;
     color: #202026 !important;
     font-size: 1.8rem;
     font-weight: 800;
 }
+
