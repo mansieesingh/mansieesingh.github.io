@@ -2,43 +2,8 @@ body {
     background: #fbeae5;
 }
 
-.app-news-msg {
-    font-size: .875rem;
-    color: #330101;
-    text-align: center;
-    font-weight: 300;
-    font-family: Nunito, Helvetica Neue, Helvetica, sans-serif;
-    margin: 1rem;
-}
-
 .outer-container {
     margin-top: 100px;
-}
-
-.head-navbar {
-    background-color: 202026 !important;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.icon-navbar-expand {
-    color: #cbcbd2 !important;
-}
-
-ul.head-navbar-nav {
-    padding: 0.5rem 0;
-    ;
-}
-
-.head-navbar-item {
-    margin: 0 3rem;
-}
-
-.head-navbar-link {
-    text-transform: uppercase;
-    font-size: 1.125rem;
-    color: #cbcbd2 !important;
-    letter-spacing: .025em;
 }
 
 .intro-box {
@@ -196,17 +161,17 @@ h4 {
     font-weight: 600;
 }
 
-footer.upper-footer {
+.upper-footer {
     background-color: #32325d !important;
-    height: 0.5rem;
+    height: 6rem;
 }
 
 .lower-footer {
     padding: 2.5rem 0;
     color: #999;
     text-align: center;
-    background-color: #cbcbd2;
-    border-top: .05rem solid #999;
+    background-color: #fbeae5;
+    border-top: .05rem solid #e5e5e5;
 }
 
 .line-sign-off {
@@ -224,7 +189,7 @@ footer.upper-footer {
     width: 90%;
 }
 
-.profile-detail-tabs.active {
+.nav-link.active {
     color: #4b35ef !important;
     font-size: 1.8rem;
     font-weight: 800;
@@ -233,7 +198,7 @@ footer.upper-footer {
     border-top: 0.4rem solid #4b35ef !important;
 }
 
-.profile-detail-tabs {
+.nav-link {
     color: #484848 !important;
     font-size: 1.8rem;
     font-weight: 800;
